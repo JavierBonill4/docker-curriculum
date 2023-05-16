@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM i386/python:3.8-alpine
 
 # set a directory for the app
 WORKDIR /usr/src/app
